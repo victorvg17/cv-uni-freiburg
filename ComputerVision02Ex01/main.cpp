@@ -6,7 +6,7 @@
 using namespace std;
 using namespace NFilter;
 
-#define TAU 0.1
+#define TAU 0.4
 
 void non_linear_diffusion_filter(CMatrix<float>& boat_noise,
                                  CMatrix<float>& dx,
